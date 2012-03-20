@@ -18,3 +18,6 @@
    :walk-directory
    :directory-p
    :file-p))
+
+(defpackage :pcl.spam
+  (:use :cl :pcl.pathname))
